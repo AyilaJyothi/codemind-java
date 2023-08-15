@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Area{
+public class Sample{
     public static void main(String[] args){
         Scanner sc=new Scanner(System.in);
         float a;
@@ -7,6 +7,5 @@ public class Area{
         a=sc.nextFloat();
         b=3.14*a*a;
         System.out.printf("%.2f",b);
-        
     }
 }
